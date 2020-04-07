@@ -1,0 +1,2 @@
+[example]
+ec2-3-94-170-24.compute-1.amazonaws.com ansible_ssh_private_key_file=~/Desktop/operations.pem
