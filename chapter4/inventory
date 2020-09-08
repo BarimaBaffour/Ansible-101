@@ -1,0 +1,4 @@
+#solr server, make sure it's an ubuntu distribution
+[solr]
+3.92.180.62 ansible_user=ec2-user
+
