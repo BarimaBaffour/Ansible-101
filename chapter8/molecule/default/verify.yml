@@ -1,0 +1,11 @@
+---
+# This is an example playbook to execute Ansible tests.
+
+- name: Verify
+  hosts: all
+
+  tasks:
+  - name: Verify Apache is serving Web Requests
+    uri:
+      url: http://localhost/
+      status_code: 200
